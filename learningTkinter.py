@@ -24,13 +24,15 @@ class ParentWindow(Frame):
         self.lblDisplay = Label(self.master, text='', font=("Helvetica", 16), fg='black', bg='lightgray')
         self.lblDisplay.grid(row=3, column=1, padx=(30, 0), pady=(30, 0))
         
-        self.txtFName = Entry(self.master, text=self.varFName, font=("Helvetica", 16), fg='black', bg='lightblue')
+        self.txtFName = Entry(self.master, text=self.varFName, font=("Helvetica", 16), \
+                              fg='black', bg='lightblue')
         self.txtFName.grid(row=0, column=1, padx=(30, 0), pady=(30, 0))
 
         self.txtLName = Entry(self.master, text=self.varLName, font=("Helvetica", 16), fg='black', bg='lightblue')
         self.txtLName.grid(row=1, column=1, padx=(30, 0), pady=(30, 0))
 
-        self.btnSubmit = Button(self.master, text='Submit', width=10, height=2, command=self.submit)
+        self.btnSubmit = Button(self.master, text='Submit', width=10, height=2, \
+                                command=self.submit)
         self.btnSubmit.grid(row=2, column=1, padx=(0, 0), pady=(30, 0), sticky=NE)
 
         self.btnCancel = Button(self.master, text='Cancel', width=10, height=2, command=self.cancel)
