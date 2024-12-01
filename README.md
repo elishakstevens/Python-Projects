@@ -1,6 +1,6 @@
 # Python-Projects
 
-These are assignment and projects written in Python, which may use various modules such as tkinter or sqlite3.
+These are assignments and projects written in Python, which may use various modules such as tkinter or sqlite3.
 
 ## Projects:
 - Phonebook
